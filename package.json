@@ -1,0 +1,25 @@
+{
+  "name": "portal",
+  "version": "0.0.1",
+  "description": "TBD",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "postinstall": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-rethinkdb": "^0.6.0",
+    "rethinkdb-websocket-server": "^0.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1"
+  }
+}
